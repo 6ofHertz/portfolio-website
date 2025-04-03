@@ -1,0 +1,99 @@
+# Personal Portfolio Website
+
+Welcome to my Personal Portfolio Website! This site is a digital showcase of my professional skills, experience, projects, and interests. Designed as an online resume, it highlights my expertise in technology, cybersecurity, and web development.
+
+## Project Overview
+This portfolio website is built using HTML and CSS for simplicity and deployed via GitHub Pages. It serves as a central hub for potential employers, collaborators, or anyone interested in my work.
+
+## Key Features
+- **About Me**: A short bio introducing myself, my passion for tech, and career goals.
+- **Programming Skills**: A list of languages and tools I'm proficient in (Python, HTML, CSS, AWS, Linux).
+- **Education & Certifications**: Details on my academic background and professional certifications.
+- **Projects**: A portfolio of my work, including cybersecurity challenges and web development.
+- **Contact Form**: An easy way for visitors to reach out.
+- **Responsive Design**: Optimized for mobile and desktop viewing.
+
+## Technologies Used
+- **HTML** (Structure)
+- **CSS** (Styling)
+- **GitHub Pages** (Hosting)
+
+## Project Structure
+portfolio-website/
+
+│── index.html # Main page
+
+│── styles.css # Styling
+
+│── README.md # Documentation
+
+│── assets/ # Images, icons, CV
+
+│── contact.html # Contact form
+
+
+## How to Run
+1. Clone the repo:
+
+```
+git clone https://github.com/6ofHertz/portfolio-website.git
+Open index.html in a browser or visit the live site (replace with GitHub Pages link).
+```
+
+##  Education & Certifications
+- **Diploma in Computer Science**  
+  *Chuka University (2022–2024)*  
+  Specialization: Cybersecurity, Cloud Computing, Networking
+
+- **AWS re/Start Program**  
+  Cloud Computing (AWS Security, EC2)
+
+- **Cisco Networking Academy**  
+  Networking Basics, Ethical Hacking
+
+##  Professional Experience
+### Freelance IT Technician  
+*Close the Gap, Kenya*  
+- Provided hardware/software support, network setup, and security configurations
+- Reduced security incidents by 40% through proactive hardening
+
+### IT Support Assistant  
+*RK Shah Pharmaceuticals Ltd*  
+- Troubleshooting, server maintenance, and security enhancements
+- Implemented new security protocols for company systems
+
+### IT Attaché  
+*Kenya Power and Lighting Company*  
+- Assisted in server administration and network diagnostics
+- Participated in infrastructure security audits
+
+##  Technical Skills
+### Programming Languages
+- Python
+- HTML/CSS
+
+### Technologies
+- AWS Cloud Services
+- Linux Systems
+- Cybersecurity Tools (Nmap, Metasploit, Burp Suite)
+- GitHub
+
+##  Interests & Specializations
+- Web Development (Modern frameworks and best practices)
+- Cybersecurity (Ethical hacking, CTF challenges, HTB machines)
+- Cloud Computing & Tech Innovations (AWS, AI applications)
+
+##  Notable Projects
+### Hack The Box (HTB) Challenges
+- Successfully pawned various machines including Meow, Fawn, Dancing
+- Techniques: Exploited misconfigurations in Telnet/FTP/SMB services
+- Tools: Nmap reconnaissance, credential cracking, privilege escalation
+
+##  Contact Information
+- **Email:** [wisdomkinoti001@gmail.com](mailto:wisdomkinoti001@gmail.com)
+- **GitHub:** [github.com/6ofHertz](https://github.com/6ofHertz)
+- **Portfolio:** [YourPortfolioLinkHere](#)
+
+---
+
+Thank you for visiting my portfolio!  
