@@ -25,11 +25,8 @@ CSS: Styling and layout
 GitHub Pages: Hosting
 
 4. Project Structure
-bash
-Copy
-Edit
+
 portfolio-website/
-│
 ├── index.html        # Main page
 ├── styles.css        # Styling
 ├── README.md         # Documentation
@@ -38,9 +35,6 @@ portfolio-website/
 5. How to Run
 Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/6ofHertz/portfolio-website.git
 Open in a browser:
 
@@ -90,7 +84,7 @@ AWS Cloud Services
 
 Linux Systems
 
-Cybersecurity Tools (Nmap, Metasploit, Burp Suite)
+Cybersecurity Tools (Nmap)
 
 GitHub
 
