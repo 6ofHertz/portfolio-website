@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisdom Kinoti | Cybersecurity Portfolio</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        :root {
+            --primary: #2A2A72;
+            --secondary: #009FFD;
+            --accent: #FF0076;
+            --light: #F4F4F8;
+            --dark: #1A1A2E;
+        }
+
+        body {
+            line-height: 1.6;
+            color: var(--dark);
+        }
+
+        /* Utility Classes */
+        .section {
+            padding: 4rem 2rem;
+        }
+
+        .section-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-secondary {
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--primary);
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            text-align: center;
+            padding: 8rem 2rem 4rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        /* About Section */
+        .about-content {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            margin-top: 2rem;
+        }
+
+        .profile-img {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Projects Grid */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .project-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Contact Form */
+        .contact-form {
+            display: grid;
+            gap: 1rem;
+            max-width: 500px;
+        }
+
+        input, textarea {
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column;
+            }
+            
+            nav ul {
+                gap: 1rem;
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+<!-- Hero Section -->
+<header class="hero">
+    <h1>Wisdom Kinoti</h1>
+    <p>Junior Cybersecurity Specialist | Network Engineer</p>
+    <div style="margin-top: 2rem;">
+        <a href="#contact" class="btn btn-primary">Contact Me</a>
+        <a href="assets/css/docs/cv.pdf" download class="btn btn-secondary">Download CV</a>
+    </div>
+</header>
+
+
+<!-- About Section -->
+<section id="about" class="section">
+    <div class="section-container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="assets\css\images\profile.jpg" alt="Wisdom Kinoti" class="profile-img">
+            <div>
+                <p>I am an eager and passionate IT professional with a focus on penetration testing, cloud security, and system optimization. My journey in IT has been marked by continuous learning, and I am driven to enhance my skills in securing enterprise networks and cloud infrastructures. As an entry-to-intermediate level professional, I specialize in troubleshooting, system administration, and providing comprehensive technical support to ensure smooth operations.</p>
+                <div style="margin-top: 1.5rem;">
+                    <h3>Technical Skills:</h3>
+                    <ul style="columns: 2; margin-top: 1rem;">
+                        <li><strong>Operating Systems:</strong> Windows, Linux/Unix</li>
+                        <li><strong>Networking:</strong> LAN/WAN, TCP/IP, Firewalls, VPN</li>
+                        <li><strong>Cloud Computing:</strong> AWS, Virtualization, SaaS</li>
+                        <li><strong>Tools Proficiency:</strong> VirtualBox, Office365, Task Manager</li>
+                        <li><strong>IT Support:</strong> Troubleshooting hardware/software, Helpdesk operations</li>
+                        <li><strong>System Administration:</strong> Active Directory, User Management, Backup & Recovery</li>
+                        <li><strong>Technical Support & Troubleshooting:</strong> Providing end-user support and resolving complex issues</li>
+                    </ul>
+                </div>
+                <p>With a strong foundation in networking, system administration, and cloud computing, I am committed to growing my expertise in cybersecurity and contributing to effective IT solutions in diverse environments.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Education & Certifications Section -->
+<section id="education" class="section" style="background: var(--light);">
+    <div class="section-container">
+        <h2>Education & Certifications</h2>
+        <div class="education-content">
+            <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                <li><strong>Diploma in Computer Science</strong> – Specializing in Cybersecurity, System Administration, Cloud Computing, and Networking</li>
+                <li><strong>AWS re/Start Program</strong> – AWS Cloud Computing</li>
+                <li><strong>Cisco Networking Academy</strong> – Networking Basics, Ethical Hacking</li>
+                <li><strong>Introduction to Cybersecurity</strong> – Cisco NetAcad</li>
+                <li><strong>Certificate in Computer Science</strong> – Focused on foundational computer science principles</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Experience Section -->
+    <section id="experience" class="section" style="background: var(--light);">
+        <div class="section-container">
+            <h2>Professional Experience</h2>
+
+            <div class="project-card" style="margin-top: 2rem;">
+                <h3>Freelance IT Technician</h3>
+                <p class="company">Close the Gap, Ratna Square, Kenya</p>
+                <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                    <li>Provide comprehensive IT support, specializing in hardware diagnostics, software installations, and system optimization for various clients.</li>
+                    <li>Assist in network setup and configuration, including Wi-Fi connections and device management.</li>
+                    <li>Troubleshoot and resolve a wide range of technical issues to ensure smooth and efficient system performance.</li>
+                </ul>
+            </div>
+
+            <div class="project-card" style="margin-top: 2rem;">
+                <h3>IT Support Assistant</h3>
+                <p class="company">RK Shah Pharmaceuticals Ltd, Mombasa, Kenya</p>
+                <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                    <li>Delivered end-user technical support, resolving software and network issues to maintain operational efficiency.</li>
+                    <li>Assisted with server maintenance, system upgrades, and ensuring data and system integrity across the organization.</li>
+                    <li>Coordinated with various teams to troubleshoot and resolve technical issues promptly, ensuring minimal downtime.</li>
+                </ul>
+            </div>
+
+            <div class="project-card" style="margin-top: 2rem;">
+                <h3>IT Attaché</h3>
+                <p class="company">Kenya Power and Lighting Company, Mombasa, Kenya</p>
+                <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                    <li>Supported server administration and managed user accounts, permissions, and security protocols to maintain smooth IT operations.</li>
+                    <li>Diagnosed and resolved network issues, contributing to uninterrupted workflows across departments.</li>
+                    <li>Provided first-line IT support to internal users, addressing hardware and software issues and ensuring efficient problem resolution.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <div class="section-container">
+        <h2>Technical Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Hack The Box (HTB) Challenges</h3>
+                <p>Successfully pawned various machines including Meow, Fawn, and Dancing</p>
+                <div style="margin-top: 1rem; color: var(--secondary);">
+                    <strong>Techniques:</strong> Exploited misconfigurations in Telnet/FTP/SMB services
+                </div>
+                <div style="margin-top: 1rem; color: var(--secondary);">
+                    <strong>Tools:</strong> Nmap reconnaissance, Metasploit, Burp Suite
+                </div>
+            </div>
+            <!-- Add more project cards -->
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" style="background: var(--light);">
+        <div class="section-container">
+            <h2>Contact Me</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 2rem;">
+            <div>
+                <p><strong>Email:</strong> <a href="mailto:wisdomkinoti001@gmail.com">wisdomkinoti001@gmail.com</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/6ofHertz" target="_blank">My Github</a></p>
+            </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Wisdom Kinoti. All rights reserved.</p>
+    </footer>
+</body>
+</html>
